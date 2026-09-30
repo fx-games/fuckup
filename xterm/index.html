@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>First Universal Cybernetic-Kinetic Ultra-Micro Programmer v0.1.7</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.terminal-src.js"></script>
+    <link href="css/jquery.terminal.css" rel="stylesheet"/>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('body').terminal("sub/backend.php", {
+                login:true,
+                tabcompletion: true,
+		greetings:"First Universal Cybernetic-Kinetic Ultra-Micro Programmer v0.1.7\n*** UNAUTHORIZED ACCESS IS FORBIDDEN ***\nType 'ls bin' for server specific commands."
+	});
+    });
+    </script>
+</head>
+<body>
+</body>

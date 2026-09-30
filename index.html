@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<title>m</title>
+<style>
+body
+{
+  background-color: #111111;
+  color: #179EFF;
+  font-size: 150%;
+  font-family: monospace;
+  text-shadow: 0px 0px 6px #69C0FF;
+}
+a:link, a:visited
+{
+  background-color: #111111;
+  color: #179EFF;
+}
+
+input
+{
+  background-color: #111111;
+  color: #179EFF;
+  outline: none;
+  border: 1px solid #179EFF;
+  border-radius: 3px;  
+  box-shadow: 0px 0px 6px #69C0FF;
+  text-shadow: 0px 0px 6px #69C0FF;
+  font-family: monospace;
+}
+
+a:active, a:hover
+{
+  color: #eee;
+}
+
+input:hover
+{
+  border: 1px solid #eee;
+  color: #eee;
+}
+
+div.centered
+{
+  margin: 0 auto;
+}
+
+div#content
+{
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+div#cell
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+}
+div#footerRight
+{
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+</style>
+<!-- 1. jquery library -->
+<script type="text/javascript" src="projekktor/jquery.min.js"></script>
+ 
+<script type="text/javascript" src="projekktor/projekktor.min.js"></script>
+
+<link rel="stylesheet" href="projekktor/theme/style.css" type="text/css" media="screen" />
+
+<script type="text/javascript">
+$(document).ready(function() {
+	projekktor('#teaserPlayer', {
+		controls: false
+});
+});
+</script>
+
+</head>
+<body>
+<div id="content">
+<div id="cell">
+<p>
+<span class="glow">die Jagd nach M hat begonnen</span>
+</p>
+<p>
+<div class="centered">
+<video id="teaserPlayer" class="projekktor" width="640" height="360" poster="mposter.png">
+  <source src="teaser.mp4" type="video/mp4" />
+  <source src="teaser.webm" type="video/webm" />
+</video>
+</div>
+</p>
+
+<div id="footerRight">
+<a href="xterm/">&Pi;</a>
+</div>
+
+</div>
+</div>
+</body>
+</html>

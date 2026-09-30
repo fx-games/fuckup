@@ -1,0 +1,7 @@
+AuthName "Restricted Access"
+AuthType Basic
+AuthUserFile /home/felix/restricted.htpasswd
+
+<Limit GET POST>
+require valid-user
+</Limit>

@@ -1,0 +1,82 @@
+body
+{
+	font: normal 100.01% Helvetica, Arial, sans-serif;
+	width: 85%;
+	margin: auto;
+}
+
+body a
+{
+	text-decoration: none;	
+}
+
+body a:before
+{
+	content: "[";
+}
+
+body a:after
+{
+	content: "]";
+}
+
+body h1
+{
+	text-align: center;
+	margin: auto;
+}
+
+div#UploadForm
+{	
+	border: 1px solid;
+	padding: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+div#UploadForm form
+{
+	text-align: center;
+	margin: auto;
+}
+
+div#UploadForm p
+{
+	text-align: center;
+	margin: auto;
+	margin-top: 0.4em;
+	padding: 0.4em;
+	font-size: x-small;
+}
+
+div#UploadForm table
+{
+	text-align: left;
+	margin: auto;
+}
+
+div#FileList
+{
+	border: 1px solid;
+	padding: 2em;
+}
+
+div#Footer
+{
+	font-size: x-small;
+	text-align: right;
+}
+
+div#LoginForm, div#LoginForm table
+{
+	text-align: center;
+	margin: auto;
+}
+
+div#LoginForm table
+{	
+	border: 1px solid;
+	padding: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}

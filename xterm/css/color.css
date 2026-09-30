@@ -1,0 +1,70 @@
+body
+{
+  background-color: #111111;
+  color: #179EFF;
+  font-size: 150%;
+  font-family: monospace;
+  text-shadow: 0px 0px 6px #69C0FF;
+}
+a:link, a:visited
+{
+  background-color: #111111;
+  color: #179EFF;
+}
+a:active, a:hover
+{
+  color: #eee;
+}
+
+input, textarea
+{
+  background-color: #111111;
+  color: #179EFF;
+  outline: none;
+  border: 1px solid #179EFF;
+  border-radius: 3px;  
+  box-shadow: 0px 0px 6px #69C0FF;
+  text-shadow: 0px 0px 6px #69C0FF;
+  font-family: monospace;
+}
+
+input:hover
+{
+  border: 1px solid #eee;
+  color: #eee;
+}
+
+div.centered
+{
+  margin: 0 auto;
+}
+
+div#content
+{
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+div#cell
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+}
+div#footerLeft
+{
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+div#footerRight
+{
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+div#footerCenter
+{
+  bottom: 0;
+}

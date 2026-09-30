@@ -1,0 +1,8 @@
+
+[[;#2f2;]You broke the Turing Lock.]
+
+The Hunt for M ends here, for now. Whoever builds locks like this
+has left one more door open for those who made it this far:
+
+[[;#fff;]https://ruzzoli.de/roguelikes/]
+
